@@ -1,0 +1,470 @@
+.alas {
+    position : absolute;
+    bottom : 0;
+    height : 40px;
+    margin-top : 40px;
+}
+
+
+.wrapper {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.ylemineDivNupud {
+    color: white;
+    margin-left: 7px;
+    font-size: 21px;
+}
+
+.disainiPildid
+{
+	position:absolute;
+	z-index: -1;
+	
+}
+
+.textbox {
+    margin-bottom: 10px;
+    font-size: 20px;
+    width: 300px;
+    color: black;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.button {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+    width: 300px;
+    height: 40px;
+    color: black;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.enigmapic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 200px;
+}
+
+.border {
+    margin-top: 100px;
+}
+
+.bigtext {
+    font-size: 40px;
+    font-family: Candara;
+}
+
+.bigtext2 {
+    font-size: 28px;
+    font-family: Candara;
+}
+
+.recover {
+    font-size: 20px;
+}
+
+
+.enigmaPicture {
+    background-image: url("pilt2.png");
+    background-color: #cccccc;
+}
+
+.panel {
+    left: 12%;
+    position: absolute;
+    top: 85%;
+    border: 1px solid green;
+    border-color: #00a6ff;
+    margin: auto;
+    width: 75%;
+    height: 150px;
+    text-align: center;
+}
+
+
+.child {
+    margin: auto;
+    border: 1px solid green;
+    border-color: #00a6ff;
+    width: 75%;
+    height: 250px;
+}
+
+.video {
+    margin: 0 auto;
+    width: 70%;
+    display: block;
+    margin-top: 15px;
+}
+
+@media all and (min-width:2000px) {
+    .video {
+        margin: 0 auto;
+        width: 50%;
+        display: block;
+        margin-top: 15px;
+    }
+}
+
+body {
+    background-color: black;
+}
+
+.top-wrapper {
+    align-items: stretch;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    max-height: 250px;
+    width: 100%;
+}
+
+#wrapper {
+    align-items: stretch;
+    border: 3px solid #f00;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 300px;
+    margin: 10px auto 0;
+    overflow: hidden;
+    width: 50%;
+}
+
+#flex {
+    background-color: blue;
+    flex-grow: 1;
+    overflow: auto;
+    padding: 10px;
+    word-wrap: break-word;
+}
+
+#static-left {
+    background-color: yellow;
+    border-left: 3px solid #f00;
+    overflow-y: auto;
+    width: 140px;
+}
+
+#static-bottom {
+    background-color: green;
+    border-top: 3px solid #f00;
+    box-sizing: content-box;
+    height: 50px;
+    width: 100%;
+}
+
+@media all and (max-width: 1799px) and (min-width:931px) {
+    .mainPageDiv0 {
+        width: 100%;
+        height: auto;
+        display: flex;
+    }
+
+    .mainPageDiv1 {
+        width: 50%;
+        height: auto;
+        float: left;
+    }
+
+    .mainPageDiv2 {
+        width: 50%;
+        float: right;
+        min-height: 300px;
+        background-color: #07008c;
+        text-align: center;
+    }
+}
+
+@media all and (min-width: 1800px) {
+    .mainPageDiv0 {
+        width: 100%;
+        height: auto;
+        display: flex;
+    }
+
+    .mainPageDiv1 {
+        width: 38%;
+        float: left;
+        flex: 2;
+        margin-left: 140px;
+    }
+
+    .mainPageDiv2 {
+        width: 38%;
+        float: right;
+        background-color: #07008c;
+        text-align: center;
+        flex: 1;
+        margin-right: 140px;
+    }
+}
+
+
+@media all and (min-width: 2000px) {
+    .mainPageDiv0 {
+        width: 100%;
+        height: auto;
+        display: flex;
+    }
+
+    .mainPageDiv1 {
+        width: 38%;
+        float: left;
+        flex: 2;
+        margin-left: 250px;
+    }
+
+    .mainPageDiv2 {
+        width: 38%;
+        float: right;
+        background-color: #07008c;
+        text-align: center;
+        flex: 1;
+        margin-right: 250px;
+    }
+}
+
+
+@media all and (max-width: 930px) {
+    .mainPageDiv0 {
+        width: 100%;
+        height: auto;
+    }
+
+    .mainPageDiv1 {
+        width: 100%;
+        flex: 0;
+    }
+
+    .mainPageDiv2 {
+        margin-top: -19px;
+        width: 100%;
+        background-color: #07008c;
+        text-align: center;
+        flex: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (min-width: 1400px) {
+    .mainAlumineNupp {
+        font-weight: bold;
+        width: 300px;
+        height: 40px;
+        border-radius: 30px 30px 30px 30px;
+        background-color: white;
+        border: none;
+        font-size: 20px;
+    }
+
+    .mainAlumineDiv0 {
+        display: flex;
+        width: 100%;
+    }
+
+    .mainAlumineDiv1 {
+        margin: 0 auto;
+        width: 50%;
+        float: left;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-right: 40px;
+    }
+
+    .mainAlumineDiv2 {
+        margin: 0 auto;
+        text-align: center;
+        width: 50%;
+        float: right;
+        margin-left: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media all and (min-width:1800px) {
+    .mainAlumineNupp {
+        font-weight: bold;
+        width: 300px;
+        height: 40px;
+        border-radius: 30px 30px 30px 30px;
+        background-color: white;
+        border: none;
+        font-size: 20px;
+    }
+
+    .mainAlumineDiv0 {
+        display: flex;
+        width: 100%;
+    }
+
+    .mainAlumineDiv1 {
+        margin: 0 auto;
+        width: 15%;
+        float: left;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-right: 40px;
+    }
+
+    .mainAlumineDiv2 {
+        margin: 0 auto;
+        text-align: center;
+        width: 15%;
+        float: right;
+        margin-left: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media all and (min-width: 1001px) and (max-width:1799px) {
+    .mainAlumineNupp {
+        font-weight: bold;
+        width: 300px;
+        height: 40px;
+        border-radius: 30px 30px 30px 30px;
+        background-color: white;
+        border: none;
+        font-size: 20px;
+    }
+
+    .mainAlumineDiv0 {
+        display: flex;
+        width: 100%;
+    }
+
+    .mainAlumineDiv1 {
+        margin: 0 auto;
+        width: 25%;
+        float: left;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-right: 40px;
+    }
+
+    .mainAlumineDiv2 {
+        margin: 0 auto;
+        text-align: center;
+        width: 25%;
+        float: right;
+        margin-left: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+@media all and (min-width: 800px) and (max-width:1000px) {
+    .mainAlumineNupp {
+        font-weight: bold;
+        font-size: 20px;
+        width: 300px;
+        height: 40px;
+        border-radius: 30px 30px 30px 30px;
+        background-color: white;
+        border: none;
+    }
+
+    .mainAlumineDiv0 {
+        display: flex;
+        width: 100%;
+    }
+
+    .mainAlumineDiv1 {
+        margin: 0 auto;
+        width: 50%;
+        float: left;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-right: 40px;
+    }
+
+    .mainAlumineDiv2 {
+        margin: 0 auto;
+        text-align: center;
+        width: 50%;
+        float: right;
+        margin-left: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media all and (max-width: 799px) {
+
+    .mainAlumineNupp {
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 30px 30px 30px 30px;
+        width: 300px;
+        height: 40px;
+        margin-top: 24px;
+        background-color: white;
+        border: none;
+    }
+
+    .mainAlumineDiv0 {
+        margin-top: -20px;
+        width: 100%;
+    }
+
+    .mainAlumineDiv1 {
+        margin: 0 auto;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .mainAlumineDiv2 {
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+
+.footerDiv {
+    width: 100%;
+    text-align: center;
+}
+
+.footerText {
+    color: white;
+    font-size: 20px;
+    font-family: 'Barlow', sans-serif;
+}
